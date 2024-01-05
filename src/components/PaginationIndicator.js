@@ -11,7 +11,7 @@ const PaginationIndicator = (props) => {
   }, []);
 
   const renderPaginationCircles = () => {
-    const totalScreens = 6;
+    const totalScreens = 5;
     const activeScreen = props.pageNumber - 1;
 
     return Array.from({ length: totalScreens }, (_, index) => (
